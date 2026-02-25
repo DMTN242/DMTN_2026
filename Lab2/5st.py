@@ -28,6 +28,7 @@ def draw_character(x, y, shirt_color, hair_color, eye_color):
     pygame.draw.line(screen, SKIN, (x - 80, y + 100), (x - 120, y - 200), 20)
     pygame.draw.line(screen, SKIN, (x + 80, y + 100), (x + 120, y - 200), 20)
     
+    
     # Плечи и рукава
     pygame.draw.rect(screen, shirt_color, (x - 100, y + 120, 200, 150))
     pygame.draw.polygon(screen, shirt_color, [(x - 100, y + 120), (x - 160, y + 150), (x - 140, y + 200), (x - 100, y + 200)])
