@@ -18,6 +18,7 @@ RED = (237, 28, 36)
 BANNER_GREEN = (127, 255, 0)
 BLACK = (0, 0, 0)
 
+
 def draw_character(x, y, shirt_color, hair_color, eye_color):
     # Руки 
     pygame.draw.line(screen, SKIN, (x - 80, y + 100), (x - 120, y - 200), 20)
